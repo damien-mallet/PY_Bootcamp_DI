@@ -1,0 +1,93 @@
+/*Universal selector*/
+* {
+    background-color: beige;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: #00FF00;
+    background-color: rgb(0, 0, 255);
+}
+
+h3, h4, h5, h6 {
+    color: cadetblue;
+}
+
+#h6_elem{
+    color: blueviolet;
+}
+
+.post{
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+    width: 500px;
+}
+
+.background-green{
+    background-color: green;
+}
+
+.profile{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    /*border-color: black;*/
+    border-radius: 50%;
+    background-image: url("image.jpeg");
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    /*border: 1px solid black;*/
+}
+
+p {
+    color: orange;
+}
+
+/*div > p {*/
+div p {
+    color: green;
+}
+
+/*div ~ p{*/
+div + p {
+    background-color: yellow;
+    color: rgba(0,0,0, 0.1);
+}
+
+.damien{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.r1{
+    background-color: red;
+}
+.r2{
+    background-color: blue;
+}
+.r3{
+    background-color: yellow;
+}
+.r4{
+    background-color: green;
+}
+
+.r_all{
+    height: 40px;
+}
+.flag{
+    border: none;
+    width: 300px;
+    height: 200px;
+    /*border-collapse: collapse;*/
+}
